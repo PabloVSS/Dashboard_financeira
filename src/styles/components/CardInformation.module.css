@@ -1,0 +1,21 @@
+.container_information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    width: 280px;
+    height: 62px;
+    color: var(--brand);
+    background: #FFFFFF;
+    border-left: 10px solid #05FD1E;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.container_information *{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}

@@ -1,0 +1,25 @@
+.layout{
+  display: grid;
+  grid:
+    "header main" auto
+    / auto 1fr;
+}
+
+
+.container_header{
+  width: 222px;
+  height: auto;
+  box-shadow: 10px 5px 4px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 15px 15px 0px;
+  border: 1px solid #000;
+
+  grid-area: header; 
+
+}
+
+
+
+.container_main{
+  border: 1px solid #000;
+  grid-area: main;
+}
